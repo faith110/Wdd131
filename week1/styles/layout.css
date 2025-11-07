@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:0;
+}
+h1{
+    background-color: rgb(128, 128, 128);
+    color:whitesmoke;
+    padding: 16px;
+    text-align:left;
+}
+nav{
+    background-color: black;
+    padding:10px;
+    width:100%;
+}
+/* remove list bullet and arrange links horizontally*/
+nav ul{ /* styles all the list items as a group behave*/
+    list-style:none;
+    display:flex; /* displays it across the page horizontally*/
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li a { /*styles each individual item*/
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+main{
+    display:flex;
+    justify-content:space-between;
+}
+.main{
+    background-color: rgba(128, 128, 128, 0.493);
+    width: 74%;
+    height: 500px;
+}
+.aside{
+    background-color:beige;
+    width: 100%;
+    display:flex;
+    margin-top:-500px;
+    height: 500px;
+    margin-left:1000px
+}
+p{
+    padding:15px;
+}
+footer{
+    background-color: gray;
+}
