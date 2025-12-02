@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Review Submitted</title>
     <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/review.js" defer></script>
 </head>
 
 <body>
@@ -20,19 +21,8 @@
 </main>
 
 <footer>
-    <p>&copy;2024 🌺 Ojochogwu Faith David 🌺 Nigeria</p>
+    <p>&copy;2025 🌺 Ojochogwu Faith David 🌺 Nigeria</p>
     <p>Last Modification: <span id="lastModified"></span></p>
 </footer>
-
-<script>
-    document.getElementById("lastModified").textContent = document.lastModified;
-
-    // counter
-    let count = Number(localStorage.getItem("reviews")) || 0;
-    count++;
-    localStorage.setItem("reviews", count);
-    document.getElementById("counter").textContent = count;
-</script>
-
 </body>
 </html>
